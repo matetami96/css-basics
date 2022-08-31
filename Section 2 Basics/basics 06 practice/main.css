@@ -1,0 +1,61 @@
+/* My Solution (Tomi) */
+/* body {
+	font-family: sans-serif;
+}
+
+#assignment-instructions {
+	font-family: sans-serif;
+	color: aqua;
+}
+
+code {
+	font-family: monospace;
+	color: red;
+}
+
+.second-list-item-code {
+	color: green;
+}
+
+li + li {
+	background: black;
+	color: white;
+}
+
+ol li {
+	background: black;
+	color: white;
+} */
+
+body {
+	font-family: sans-serif;
+}
+
+.highlighted-code {
+	color: green;
+}
+
+#assignment-instructions {
+	font-family: sans-serif;
+	color: aqua;
+}
+
+/* [id] {
+	font-family: sans-serif;
+	color: aqua;
+} */
+
+code {
+	font-family: monospace;
+	color: red;
+}
+
+li + li {
+	background: black;
+	color: white;
+}
+
+ol li {
+	background: black;
+	color: white;
+}
