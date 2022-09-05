@@ -1,4 +1,4 @@
-@font-face {
+/* @font-face {
 	font-family: "AnonymousPro";
 	src: url("../fonts/anonymousPro-Regular.ttf") format("truetype");
 }
@@ -7,7 +7,7 @@
 	font-family: "AnonymousPro";
 	src: url("../fonts/anonymousPro-Bold.ttf") format("truetype");
 	font-weight: 700;
-}
+} */
 
 .background {
 	background: url("../images/plans-background.jpg") center/cover;
@@ -62,11 +62,10 @@ main {
 .package__info {
 	padding: 1rem;
 	border: 1px solid #0e4f1f;
-	font-size: 1.2rem;
 	color: #0e4f1f;
 	background: #ffffff;
-	font-family: "AnonymousPro", sans-serif;
-	font-weight: 700;
+	font-size: 1.2rem;
+	/* font-style, font-variant, font-weight, font-size/line-height font-family */
 }
 
 .clearfix {
