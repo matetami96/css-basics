@@ -1,5 +1,4 @@
 @import "variables";
-
 @import "typography";
 
 @mixin display-flex() {
@@ -39,7 +38,7 @@ body {
 	box-sizing: border-box;
 }
 
-.sass-section {
+%sass-section {
 	border: $border-default;
 	background: lighten(map-get($colors, main), 72%);
 	padding: $size-default * 2;
@@ -52,7 +51,7 @@ body {
 }
 
 .sass-introduction {
-	@extend .sass-section;
+	@extend %sass-section;
 	box-shadow: $size-tiny $size-tiny calc($size-tiny / 2) #ccc;
 
 	p {
@@ -61,7 +60,7 @@ body {
 }
 
 .sass-details {
-	@extend .sass-section;
+	@extend %sass-section;
 	margin: $size-default * 2 0;
 }
 
