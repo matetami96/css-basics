@@ -53,7 +53,7 @@ body {
 
 .sass-introduction {
 	@extend .sass-section;
-	box-shadow: $size-tiny $size-tiny $size-tiny / 2 #ccc;
+	box-shadow: $size-tiny $size-tiny calc($size-tiny / 2) #ccc;
 
 	p {
 		margin: 0;
