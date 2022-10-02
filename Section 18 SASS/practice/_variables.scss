@@ -1,3 +1,5 @@
+@use "sass:math";
+
 // $main-color: #521751;
 $colors: (
 	main: #521751,
@@ -5,4 +7,4 @@ $colors: (
 );
 $size-default: 1rem;
 $size-tiny: 0.2rem;
-$border-default: calc($size-tiny / 4) solid map-get($colors, main);
+$border-default: math.div($size-tiny, 4) solid map-get($colors, main);

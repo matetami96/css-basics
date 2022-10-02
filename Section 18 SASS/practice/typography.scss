@@ -1,7 +1,7 @@
-@import "variables";
+@use "variables";
 
 .char-highlight {
 	font-weight: bold;
 	font-size: 1.4rem;
-	color: map-get($map: $colors, $key: main);
+	color: map-get(variables.$colors, main);
 }
